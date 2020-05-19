@@ -9,10 +9,14 @@
         <div class="hero flex__col">
             <img src="assets/Surge Logo.png" alt="Surge logo" class="hero__logo"/>
             <div class="hero__info flex__col">
-                <div class="flex__row">
-                    <div class="font__header0">surge</div>
-                    <div class="font__header1">&nbsp;for small businesses</div>
-                    
+                <!-- This extra div is here to deal with safari strangeness. 
+                    I think it has something to do with the fact that this section was only display flex and so safari just thought it wasn't there -->
+                <div>
+                    <div class="flex__row">
+                        <div class="font__header0">surge</div>
+                        <div class="font__header1">&nbsp;for small businesses</div>
+                        
+                    </div>
                 </div>
                 <div class="hero__dropdown">
                     <div class="hero__dropdown_current font__body" id="heroDropdownCurrent">
