@@ -1,0 +1,49 @@
+.hero {
+    background-image: url('../assets/Wallpaper.png');
+    background-size: 100% 1105px;
+    height: 1105px;
+    width: 100%;
+}
+
+.hero__logo{
+    width: 242px;
+    height: 108px;
+
+    margin-left: 45px;
+    margin-top: 29px;
+}
+
+.hero__info {
+    margin-top: 110px;
+    align-items: center;
+
+    color: white;
+}
+
+.hero__browser-image {
+    width: 1150px;
+    height: 727px;
+}
+
+@media (max-width: 1229px) {
+    .hero {
+        height: 575px;
+    }
+
+    .hero__logo{
+        width: 121px;
+        height: 54px;
+    
+        margin-left: 22px;
+        margin-top: 14px;
+    }
+
+    .hero__info {
+        margin-top: 55px;
+    }
+
+    .hero__browser-image {
+        width: 575px;
+        height: 351px;
+    }
+}

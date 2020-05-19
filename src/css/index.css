@@ -1,0 +1,19 @@
+@import "_body.css";
+@import "_dropdown.css";
+@import "_footer.css";
+@import "_hero.css";
+@import "_fonts.css";
+
+body {
+    margin: 0;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex__col {
+    display: flex;
+    flex-direction: column;
+}
